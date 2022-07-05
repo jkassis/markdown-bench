@@ -1,0 +1,32 @@
+{
+  "name": "markdown",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jeremy Kassis",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "benchmark": "tsc ; node dist/index.js"
+  },
+  "dependencies": {
+    "@types/commonmark": "^0.27.4",
+    "@types/markdown-it": "^12.0.1",
+    "@types/marked": "^2.0.0",
+    "@types/node": "^14.14.34",
+    "@types/remarkable": "^2.0.1",
+    "@types/showdown": "^1.9.3",
+    "commonmark": "^0.29.3",
+    "markdown-it": "^12.0.4",
+    "marked": "^2.0.1",
+    "micromark": "^2.11.4",
+    "micromarkdown": "^0.3.4-a",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1",
+    "remarkable": "^2.0.1",
+    "showdown": "^1.9.1",
+    "snarkdown": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}
